@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481c3516-fa8a-4f54-ae1d-b638c52d76a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ui/tkinter_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/wxpython_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/wxpython_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/wxpython_gui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +21,7 @@
       <file leaf-file-name="beamdesign.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="153">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
@@ -32,7 +30,7 @@
       <file leaf-file-name="make_beams_and_columns.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
+            <state relative-caret-position="2414">
               <caret line="144" selection-start-line="144" selection-end-line="144" />
               <folding>
                 <element signature="e#85#159#0" expanded="true" />
@@ -44,17 +42,17 @@
       <file leaf-file-name="sawn_lumber_adjustments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
+            <state relative-caret-position="2176">
               <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tkinter_gui.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tkinter_gui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui/tkinter_gui.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -62,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wxpython_gui.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wxpython_gui.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui/wxpython_gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="382">
+              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -74,7 +72,7 @@
       <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -83,7 +81,7 @@
       <file leaf-file-name="pydev_run_in_console.py" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="714">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
@@ -92,7 +90,7 @@
       <file leaf-file-name="wooddataparser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2126">
+            <state relative-caret-position="255">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#106#116#0" expanded="true" />
@@ -144,12 +142,12 @@
         <option value="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" />
-        <option value="$PROJECT_DIR$/ui/wxpython_gui.py" />
         <option value="$PROJECT_DIR$/ui/tkinter_gui.py" />
+        <option value="$PROJECT_DIR$/ui/wxpython_gui.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="903" />
     <option name="width" value="936" />
     <option name="height" value="1092" />
@@ -243,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tkinter_gui">
+  <component name="RunManager" selected="Python.wxpython_gui">
     <configuration name="make_beams_and_columns" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tkinter_gui" />
         <item itemvalue="Python.wxpython_gui" />
+        <item itemvalue="Python.tkinter_gui" />
         <item itemvalue="Python.make_beams_and_columns" />
         <item itemvalue="Python.wooddataparser" />
         <item itemvalue="Python tests.py.test in sawn_lumber_adjustments.py" />
@@ -461,45 +459,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="602" y="0" width="623" height="727" extended-state="0" />
+    <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4958124" visible="true" weight="0.37542662" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.494863" visible="true" weight="0.18394649" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4955357" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.110491075" side_tool="true" weight="0.6136618" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49107143" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.47767857" weight="0.32998326" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.48325893" weight="0.5206612" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8895089" weight="0.6130653" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5041876" side_tool="true" visible="true" weight="0.37542662" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50513697" side_tool="true" visible="true" weight="0.18394649" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49330357" weight="0.32887402" />
       <window_info id="Favorites" order="2" sideWeight="0.5058236" side_tool="true" weight="0.66852677" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.484375" weight="0.39910814" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49107143" weight="0.3289256" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4955357" weight="0.60535115" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49417636" weight="0.66852677" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49776787" visible="true" weight="0.32998884" />
-      <window_info id="Favorites" order="2" sideWeight="0.5058236" side_tool="true" weight="0.66852677" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49776787" weight="0.32998884" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4955357" weight="0.60535115" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4921875" weight="0.32552955" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49330357" weight="0.39910814" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49543378" weight="0.3299435" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50223213" side_tool="true" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4921875" weight="0.32552955" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49776787" weight="0.32998884" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.5058236" side_tool="true" weight="0.66852677" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -528,6 +526,64 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#85#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/wxpython_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/tkinter_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
     <entry file="file://$PROJECT_DIR$/pint documentations.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,13 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildingcodes/asce710.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/quantity.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -573,9 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildingcodes/asce710.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
     <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
     <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
@@ -585,15 +632,9 @@
     <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
     <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
     <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeah.py" />
     <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
     <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
-    <entry file="file://$PROJECT_DIR$/strupymain.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/material specs/wood/chapter1.py" />
     <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
@@ -618,18 +659,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildingcodes/asce710.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodMain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodBeam.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -683,14 +718,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2126">
+        <state relative-caret-position="255">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#106#116#0" expanded="true" />
@@ -700,7 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
+        <state relative-caret-position="2414">
           <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
             <element signature="e#85#159#0" expanded="true" />
@@ -710,39 +745,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
+        <state relative-caret-position="2176">
           <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="714">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/wxpython_gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/tkinter_gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/wxpython_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
         </state>
       </provider>
     </entry>
