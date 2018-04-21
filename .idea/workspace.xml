@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="481c3516-fa8a-4f54-ae1d-b638c52d76a8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ui/tkinter_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/wxpython_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="strucpy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="beamdesign.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="make_beams_and_columns.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2448">
+              <caret line="144" selection-start-line="144" selection-end-line="144" />
+              <folding>
+                <element signature="e#85#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sawn_lumber_adjustments.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tkinter_gui.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui/tkinter_gui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wxpython_gui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/wxpython_gui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pydev_run_in_console.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wooddataparser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2126">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#106#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>not</find>
+      <find>d</find>
+      <find>no</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sean" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/design process/design criteria.py" />
+        <option value="$PROJECT_DIR$/material specs/pinttest.py" />
+        <option value="$PROJECT_DIR$/material specs/wood/connection.py" />
+        <option value="$PROJECT_DIR$/material specs/wood/chapter 1.py" />
+        <option value="$PROJECT_DIR$/material specs/wood/chapter1.py" />
+        <option value="$PROJECT_DIR$/buildingcodes/IBC.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/WoodMain.py" />
+        <option value="$PROJECT_DIR$/physics/beamdesign.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/__init__.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/beamdesign.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" />
+        <option value="$PROJECT_DIR$/ui/wxpython_gui.py" />
+        <option value="$PROJECT_DIR$/ui/tkinter_gui.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="903" />
+    <option name="width" value="936" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="strucpy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strucpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strucpy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strucpy" type="462c0819:PsiDirectoryNode" />
+              <item name="materialcodes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strucpy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strucpy" type="462c0819:PsiDirectoryNode" />
+              <item name="materialcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="wood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strucpy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strucpy" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="strucpy" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="strucpy" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\materialcodes\wood" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\material specs\wood" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tkinter_gui">
+    <configuration name="make_beams_and_columns" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="strucpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/materialcodes/wood" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tkinter_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="strucpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/tkinter_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="wooddataparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="strucpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/materialcodes/wood" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="wxpython_gui" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="strucpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/wxpython_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test in sawn_lumber_adjustments.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="strucpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/materialcodes/wood" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Default" />
+      <item itemvalue="Python.make_beams_and_columns" />
+      <item itemvalue="Python.wooddataparser" />
+      <item itemvalue="Python tests.py.test in sawn_lumber_adjustments.py" />
+      <item itemvalue="Python.tkinter_gui" />
+      <item itemvalue="Python.wxpython_gui" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tkinter_gui" />
+        <item itemvalue="Python.wxpython_gui" />
+        <item itemvalue="Python.make_beams_and_columns" />
+        <item itemvalue="Python.wooddataparser" />
+        <item itemvalue="Python tests.py.test in sawn_lumber_adjustments.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="481c3516-fa8a-4f54-ae1d-b638c52d76a8" name="Default" comment="" />
+      <created>1516585014515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516585014515</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Doing the enw thing">
+      <created>1516585100992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516585100992</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Doing the enw thing1">
+      <created>1516585150594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516585150594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="committing, many updates.">
+      <created>1519277764662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519277764662</updated>
+    </task>
+    <task id="LOCAL-00004" summary="beam design updates">
+      <created>1520490097277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520490097279</updated>
+    </task>
+    <task id="LOCAL-00005" summary="beam design updates">
+      <created>1521090010226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521090010228</updated>
+    </task>
+    <task id="LOCAL-00006" summary="beam design updates">
+      <created>1521090228470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521090228470</updated>
+    </task>
+    <task id="LOCAL-00007" summary="beam design updates">
+      <created>1523212403085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523212403085</updated>
+    </task>
+    <task id="LOCAL-00008" summary="beam design updates">
+      <created>1523212432448</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523212432448</updated>
+    </task>
+    <task id="LOCAL-00009" summary="beam design updates">
+      <created>1523338080727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1523338080727</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pint integration into wood module">
+      <created>1523422554889</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1523422554889</updated>
+    </task>
+    <task id="LOCAL-00011" summary="pint integration into wood module">
+      <created>1523422629713</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523422629713</updated>
+    </task>
+    <task id="LOCAL-00012" summary="species selector">
+      <created>1523775892875</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1523775892879</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_sawn_lumber_adjustments_py - 2018.04.14 at 13h 11m 27s.xml">
+      <configuration name="py.test in sawn_lumber_adjustments.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_sawn_lumber_adjustments_py - 2018.04.14 at 13h 18m 52s.xml">
+      <configuration name="py.test in sawn_lumber_adjustments.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="602" y="0" width="623" height="727" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4958124" visible="true" weight="0.37542662" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4955357" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.110491075" side_tool="true" weight="0.6136618" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49107143" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.47767857" weight="0.32998326" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.48325893" weight="0.5206612" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8895089" weight="0.6130653" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5041876" side_tool="true" visible="true" weight="0.37542662" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49330357" weight="0.32887402" />
+      <window_info id="Favorites" order="2" sideWeight="0.5058236" side_tool="true" weight="0.66852677" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.484375" weight="0.39910814" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4955357" weight="0.60535115" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49417636" weight="0.66852677" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49776787" visible="true" weight="0.32998884" />
+      <window_info id="Favorites" order="2" sideWeight="0.5058236" side_tool="true" weight="0.66852677" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49776787" weight="0.32998884" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49330357" weight="0.39910814" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49543378" weight="0.3299435" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50223213" side_tool="true" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4921875" weight="0.32552955" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Doing the enw thing" />
+    <MESSAGE value="Doing the enw thing1" />
+    <MESSAGE value="committing, many updates." />
+    <MESSAGE value="beam design updates" />
+    <MESSAGE value="pint integration into wood module" />
+    <MESSAGE value="species selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="species selector" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
+    <entry file="file://$PROJECT_DIR$/pint documentations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildingcodes/IBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildingcodes/asce710.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/quantity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16700">
+          <caret line="668" selection-start-line="668" selection-end-line="668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
+    <entry file="file://$PROJECT_DIR$/pint documentations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildingcodes/IBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildingcodes/asce710.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
+    <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
+    <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
+    <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeah.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
+    <entry file="file://$PROJECT_DIR$/strupymain.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material specs/wood/chapter1.py" />
+    <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
+    <entry file="file://$PROJECT_DIR$/pint documentations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildingcodes/IBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11075">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildingcodes/asce710.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodBeam.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/compat/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/_collections_abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="673" selection-start-line="673" selection-end-line="673" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/quantity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015_Design Provisions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2126">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="e#85#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/wxpython_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/tkinter_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
