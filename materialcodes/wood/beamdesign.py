@@ -1,5 +1,9 @@
 '''this file will do the heavy lififting for design of beams'''
 
+from .make_beams_and_columns import spec_select
+
+
+
 beamtypes = 'cantilevered, pin-pin, pin-fix, fix-fix'
 beamconditions = 'simplespan, multispan'
 
