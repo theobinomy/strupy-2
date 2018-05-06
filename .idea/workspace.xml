@@ -2,33 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481c3516-fa8a-4f54-ae1d-b638c52d76a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/strucpy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/strucpy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/Pdeff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/button" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/jinja1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/jinja2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/mark2pdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/rest_woodbeam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/restructured example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/retest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/rstpdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pdeffer/xhtml2pdf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2012_IBC-US_Ss_S1-0p05.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/construction_document.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcodemain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loadtracer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_design.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materialcodes/40 python calcs/material specs - Shortcut.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materialcodes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materialcodes/wood/beamdesign.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/beamdesign.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pint documentations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/residential design process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy - Shortcut.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/strupy/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/strupy/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/strupy/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/ui/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/ui/kivytest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/ui/tkinter_gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupy-ui/ui/wxpython_gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strupymain.py" beforeDir="false" afterPath="$PROJECT_DIR$/strupymain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/senv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/senv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,30 +25,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/strupy$py_test_in_sawn_lumber_adjustments_py.coverage" NAME="py.test in sawn_lumber_adjustments.py Coverage Results" MODIFIED="1524627943283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
+    <SUITE FILE_PATH="coverage/strupy$button.coverage" NAME="button Coverage Results" MODIFIED="1524966936552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$retest.coverage" NAME="retest Coverage Results" MODIFIED="1524986761164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$Pdeff.coverage" NAME="Pdeff Coverage Results" MODIFIED="1524895093377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$jinja2.coverage" NAME="jinja2 Coverage Results" MODIFIED="1524986220640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$docutils_task_in_restructured_example.coverage" NAME="docutils task in restructured example Coverage Results" MODIFIED="1524959824249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$xhtml2pdf.coverage" NAME="xhtml2pdf Coverage Results" MODIFIED="1524981499453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$py_test_in_sawn_lumber_adjustments_py.coverage" NAME="py.test in sawn_lumber_adjustments.py Coverage Results" MODIFIED="1524877897560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
+    <SUITE FILE_PATH="coverage/strupy$sawn_lumber_adjustments.coverage" NAME="sawn_lumber_adjustments Coverage Results" MODIFIED="1524878254805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
+    <SUITE FILE_PATH="coverage/strupy$mark2pdf.coverage" NAME="mark2pdf Coverage Results" MODIFIED="1524991606003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$rstpdf.coverage" NAME="rstpdf Coverage Results" MODIFIED="1524985973678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$jinja1.coverage" NAME="jinja1 Coverage Results" MODIFIED="1524986410567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="strucpy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="WoodMain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodMain.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="rest_woodbeam" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pdeffer/rest_woodbeam">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jinja2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pdeffer/jinja2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#144#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sawn_lumber_adjustments.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -80,6 +100,7 @@
       <find>not</find>
       <find>d</find>
       <find>no</find>
+      <find>adju</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,7 +127,6 @@
         <option value="$PROJECT_DIR$/materialcodes/wood/__init__.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
         <option value="$PROJECT_DIR$/ui/tkinter_gui.py" />
         <option value="$PROJECT_DIR$/strupy/strupy/app.py" />
         <option value="$PROJECT_DIR$/strupy/strupy/__main__.py" />
@@ -117,7 +137,19 @@
         <option value="$PROJECT_DIR$/materialcodes/__init__.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/beamdesign.py" />
         <option value="$PROJECT_DIR$/ui/wxpython_gui.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/Pdeff.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/restructured example" />
+        <option value="$PROJECT_DIR$/Pdeffer/button" />
+        <option value="$PROJECT_DIR$/Pdeffer/xhtml2pdf.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/rstpdf.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/jinja1.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/retest.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/mark2pdf.py" />
+        <option value="$PROJECT_DIR$/Pdeffer/jinja2.py" />
+        <option value="$PROJECT_DIR$/source/index.rst" />
+        <option value="$PROJECT_DIR$/Pdeffer/rest_woodbeam" />
       </list>
     </option>
   </component>
@@ -128,31 +160,21 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bower_components/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/html5shiv/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bower_components/respond/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="903" />
-    <option name="width" value="936" />
+    <option name="x" value="-12" />
+    <option name="width" value="933" />
     <option name="height" value="1092" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyInterpreterInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,29 +195,30 @@
             <path>
               <item name="strupy" type="b2602c69:ProjectViewProjectNode" />
               <item name="strupy" type="462c0819:PsiDirectoryNode" />
-              <item name="materialcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="strupy" type="b2602c69:ProjectViewProjectNode" />
               <item name="strupy" type="462c0819:PsiDirectoryNode" />
-              <item name="materialcodes" type="462c0819:PsiDirectoryNode" />
-              <item name="wood" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="strupy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="strupy" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Pdeffer" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -203,6 +227,9 @@
         <option name="myModuleName" value="strucpy" />
       </console-settings>
     </option>
+  </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -226,8 +253,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in sawn_lumber_adjustments.py">
-    <configuration name="__main__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mark2pdf">
+    <configuration name="jinja1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,18 +262,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui/strupy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui/strupy/__main__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/jinja1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jinja2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,18 +281,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui/strupy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui/strupy/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/jinja2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="strupymain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mark2pdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,18 +300,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupymain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/mark2pdf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="wxpython_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="retest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,47 +319,51 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/wxpython_gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/retest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test in sawn_lumber_adjustments.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="rstpdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/materialcodes/wood" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/rstpdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
       <item itemvalue="Python.Default" />
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.__main__ (1)" />
-      <item itemvalue="Python.wxpython_gui" />
-      <item itemvalue="Python.strupymain" />
-      <item itemvalue="Python tests.py.test in sawn_lumber_adjustments.py" />
+      <item itemvalue="Python.retest" />
+      <item itemvalue="Python.rstpdf" />
+      <item itemvalue="Python.jinja2" />
+      <item itemvalue="Python.jinja1" />
+      <item itemvalue="Python.mark2pdf" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test in sawn_lumber_adjustments.py" />
-        <item itemvalue="Python.strupymain" />
-        <item itemvalue="Python.wxpython_gui" />
-        <item itemvalue="Python.__main__ (1)" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.mark2pdf" />
+        <item itemvalue="Python.retest" />
+        <item itemvalue="Python.jinja1" />
+        <item itemvalue="Python.jinja2" />
+        <item itemvalue="Python.rstpdf" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523775892879</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adjustment factors">
+      <created>1524719081677</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1524719081677</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -444,6 +482,9 @@
     <history-entry file="py_test_in_sawn_lumber_adjustments_py - 2018.04.24 at 20h 51m 23s.xml">
       <configuration name="py.test in sawn_lumber_adjustments.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_sawn_lumber_adjustments_py - 2018.04.27 at 18h 11m 42s.xml">
+      <configuration name="py.test in sawn_lumber_adjustments.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,52 +497,55 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49445865" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5234442" side_tool="true" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.47655585" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.48325893" weight="0.11986301" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8797954" weight="0.5" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49330357" weight="0.47945204" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.17050299" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49107143" weight="0.3289256" />
-      <window_info anchor="right" id="SciView" />
-      <window_info id="Structure" order="1" sideWeight="0.5119863" side_tool="true" weight="0.18394649" />
-      <window_info id="Favorites" order="2" sideWeight="0.51167315" side_tool="true" weight="0.18394649" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5242967" side_tool="true" visible="true" weight="0.47913188" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.47570333" weight="0.327212" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.48252344" weight="0.37896493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8695652" weight="0.4924875" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.47570333" visible="true" weight="0.47913188" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48469388" visible="true" weight="0.24978687" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32992327" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32992327" />
+      <window_info id="Structure" order="1" sideWeight="0.5153061" side_tool="true" weight="0.17050299" />
+      <window_info id="Favorites" order="2" sideWeight="0.5153061" side_tool="true" weight="0.17050299" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.484375" weight="0.39910814" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" sideWeight="0.49957374" visible="true" weight="0.32876712" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.49957374" weight="0.32888147" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.486786" weight="0.69616026" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.17050299" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.47767857" weight="0.32876712" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.51167315" side_tool="true" weight="0.18394649" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.17050299" />
       <window_info id="Structure" order="1" sideWeight="0.5119863" side_tool="true" weight="0.18394649" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4955357" weight="0.32998884" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8895089" visible="true" weight="0.5" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49107143" weight="0.3289256" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48325893" weight="0.11986301" />
+      <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.484375" weight="0.39910814" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330357" weight="0.47945204" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.110491075" side_tool="true" weight="0.6136618" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info id="Favorites" order="2" sideWeight="0.51167315" side_tool="true" weight="0.18394649" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.47767857" weight="0.32876712" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49107143" weight="0.3289256" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48325893" weight="0.11986301" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +562,8 @@
     <MESSAGE value="beam design updates" />
     <MESSAGE value="pint integration into wood module" />
     <MESSAGE value="species selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="species selector" />
+    <MESSAGE value="Adjustment factors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustment factors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,38 +578,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
+    <entry file="file://$PROJECT_DIR$/Pdeffer/rest_woodbeam">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/tkinter_gui.py">
+    <entry file="file://$PROJECT_DIR$/Pdeffer/jinja2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="391">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#144#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
-    <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
-    <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
-    <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
-    <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
-    <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
-    <entry file="file://$PROJECT_DIR$/design process/design criteria.py" />
-    <entry file="file://$PROJECT_DIR$/yeah.py" />
-    <entry file="file://$PROJECT_DIR$/material specs/wood/renamepluszero.py" />
-    <entry file="file://$PROJECT_DIR$/material specs/pinttest.py" />
-    <entry file="file://$PROJECT_DIR$/material specs/wood/chapter1.py" />
     <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
     <entry file="file://$PROJECT_DIR$/pint documentations.py" />
@@ -611,13 +648,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strupy/strupy/app.py" />
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -675,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#83#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,18 +726,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/button">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/jinja1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="158">
+          <caret line="280" column="8" lean-forward="true" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="8" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/restructured example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4079">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/Pdeff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/mark2pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/retest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/xhtml2pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/rstpdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/rest_woodbeam">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdeffer/jinja2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#144#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
