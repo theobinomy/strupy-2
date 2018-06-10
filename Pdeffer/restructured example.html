@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/" />
+<title>Getting started</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="getting-started">
+<h1 class="title">Getting started</h1>
+
+<div class="section" id="what-you-ll-need">
+<h1>What you'll need</h1>
+<div class="section" id="a-python">
+<h2>A Python!</h2>
+<p>If you haven't yet got python, the latest official installation packages
+can be found here:</p>
+<p><a class="reference external" href="http://python.org/download/">http://python.org/download/</a></p>
+<p>Python 3 is preferable, being the newest version out!</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>On Windows, you'll need to add <a href="#id1"><span class="problematic" id="id2">:program:`Python`</span></a> to your <tt class="docutils literal">%PATH%</tt>, so it
+can be found by other programs.</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 19); <em><a href="#id2">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<p>When installing Python 3.5 or later, there should be tick box
+option to do this on the first page of the installer. Make sure you tick this on.</p>
+<p>Otherwise, you can run the script under <a href="#id3"><span class="problematic" id="id4">:file:`\Tools\Scripts\win_add2path.py`</span></a>
+where you installed Python.</p>
+<div class="last system-message" id="id3">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 25); <em><a href="#id4">backlink</a></em></p>
+Unknown interpreted text role &quot;file&quot;.</div>
+</div>
+</div>
+<div class="section" id="and-a-code-editor">
+<h2>And a Code Editor</h2>
+<p>A code editor helps with reading and writing programming code. There are
+many around, and it is one of the most personal choices a programmer can
+make - Like a tennis-player choosing their racket, or a chef choosing their
+favourite knife. To start off with, you'll just want a basic, easy-to-use one
+that doesn't get in your way, but is still effective at writing python code.
+Here are some suggestions for those:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://atom.io">Atom</a>: Windows, Mac &amp; Linux. A new code editor made by Github. It's
+an open-source project and is very easy to add functionality for,
+with its packages system.</li>
+<li><a class="reference external" href="https://www.sublimetext.com/3">Sublime Text</a>: Windows, Mac &amp; Linux. A great all around editor that's
+easy to use. It's Ctl+B shortcut lets you run the python file you're working
+on straight away.</li>
+<li><a class="reference external" href="http://www.geany.org/">Geany</a>: Windows, Mac &amp; Linux. A simple editor that doesn't aim
+to be too complicated.</li>
+<li><a class="reference external" href="http://macromates.com/">TextMate</a>: Mac. One of the most famous code editors for Mac, it used to
+be a paid product but has since been open-sourced.</li>
+<li><a class="reference external" href="https://projects.gnome.org/gedit/">Gedit</a> and <a class="reference external" href="http://kate-editor.org/">Kate</a>: Linux. If you run Linux using Gnome or KDE respectively,
+you might already have one of these two installed!</li>
+<li><a class="reference external" href="http://www.activestate.com/komodo-edit">Komodo Edit</a>: Windows, Mac &amp; Linux. a sleak, free editor based on the
+more powerful Komodo IDE.</li>
+</ul>
+<p>If you'd like our recommendation, try out Sublime Text 3 first.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Wordpad, TextEdit, Notepad, and Word are <strong>not</strong> suitable code editors.</p>
+</div>
+</div>
+</div>
+<div class="section" id="what-is-python-exactly">
+<h1>What is Python, exactly?</h1>
+<p>Ok, so python is this thing called a <strong>programming language</strong>. It takes text that
+you've written (usually referred to as <strong>code</strong>), turns it into instructions for
+your computer, and runs those instructions. We'll be learning how to write code
+to do cool and useful stuff. No longer will you be bound to use <em>others'</em>
+programs to do things with your computer - you can make your own!</p>
+<p>Practically, Python is just another program on your computer. The first thing to
+learn is how to use and interact with it. There are in fact many ways to do this;
+the first one to learn is to interact with python's interpreter,
+using your <strong>operating system's</strong> (OS) console.</p>
+<p>A <strong>console</strong> (or 'terminal', or 'command prompt') is a <em>textual</em> way to
+interact with your OS, just as the 'desktop', in conjunction with your mouse,
+is the <em>graphical</em> way to interact your system.</p>
+<div class="section" id="opening-a-console-on-mac-os-x">
+<h2>Opening a console on Mac OS X</h2>
+<p>OS X's standard console is a program called <a href="#id5"><span class="problematic" id="id6">:program:`Terminal`</span></a>. Open Terminal by
+navigating to Applications, then Utilities, then double-click the
+<a href="#id7"><span class="problematic" id="id8">:program:`Terminal`</span></a> program. You can also easily search for it in the system
+search tool in the top right.</p>
+<div class="system-message" id="id5">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 93); <em><a href="#id6">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<div class="system-message" id="id7">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 93); <em><a href="#id8">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<p>The command line Terminal is a tool for interacting with your
+computer. A window will open with a command line prompt message,
+something like this:</p>
+<pre class="literal-block">
+mycomputer:~ myusername$
+</pre>
+</div>
+<div class="section" id="opening-a-console-on-linux">
+<h2>Opening a console on Linux</h2>
+<p>Different linux distributions (e.g Ubuntu, Fedora, Mint) may have different
+console programs, usually referred to as a terminal. The exact terminal
+you start up, and how, can depend on your distribution. On Ubuntu, you will
+likely want to open <a href="#id9"><span class="problematic" id="id10">:program:`Gnome Terminal`</span></a>. It should present a prompt like this:</p>
+<div class="system-message" id="id9">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 107); <em><a href="#id10">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<pre class="literal-block">
+myusername&#64;mycomputer:~$
+</pre>
+</div>
+<div class="section" id="opening-a-console-on-windows">
+<h2>Opening a console on Windows</h2>
+<p>Window's console is called the Command Prompt, named <a href="#id11"><span class="problematic" id="id12">:program:`cmd`</span></a>.  An easy
+way to get to it is by using the key combination <a href="#id13"><span class="problematic" id="id14">:kbd:`Windows+R`</span></a>
+(<a href="#id15"><span class="problematic" id="id16">:kbd:`Windows`</span></a> meaning the windows logo button), which should open a
+<a href="#id17"><span class="problematic" id="id18">:guilabel:`Run`</span></a> dialog.  Then type <a href="#id19"><span class="problematic" id="id20">:program:`cmd`</span></a> and hit <a href="#id21"><span class="problematic" id="id22">:kbd:`Enter`</span></a> or
+click <a href="#id23"><span class="problematic" id="id24">:guilabel:`Ok`</span></a>. You can also search for it from the start menu. It should
+look like:</p>
+<div class="system-message" id="id11">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id12">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<div class="system-message" id="id13">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id14">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<div class="system-message" id="id15">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id16">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<div class="system-message" id="id17">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id18">backlink</a></em></p>
+Unknown interpreted text role &quot;guilabel&quot;.</div>
+<div class="system-message" id="id19">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id20">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<div class="system-message" id="id21">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id22">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<div class="system-message" id="id23">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 117); <em><a href="#id24">backlink</a></em></p>
+Unknown interpreted text role &quot;guilabel&quot;.</div>
+<pre class="literal-block">
+C:\Users\myusername&gt;
+</pre>
+<p>Window's Command Prompt is not quite as powerful as its counterparts on Linux
+and OS X, so you might like to start the Python Interpreter (see just below)
+directly, or using the <a href="#id25"><span class="problematic" id="id26">:program:`IDLE`</span></a> program that Python comes with.
+You can find these in the Start menu.</p>
+<div class="system-message" id="id25">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 126); <em><a href="#id26">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+</div>
+</div>
+<div class="section" id="using-python">
+<h1>Using Python</h1>
+<p>The python program that you have installed will by default act as something
+called an <strong>interpreter</strong>. An interpreter takes text commands and runs
+them as you enter them - very handy for trying things out.</p>
+<p>Just type <a href="#id27"><span class="problematic" id="id28">:program:`python`</span></a> at your console, hit <a href="#id29"><span class="problematic" id="id30">:kbd:`Enter`</span></a>, and you should
+enter Python's Interpreter.</p>
+<div class="system-message" id="id27">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 138); <em><a href="#id28">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<div class="system-message" id="id29">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 138); <em><a href="#id30">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<p>To find out which version of python you're running,
+instead type  <tt class="docutils literal">python <span class="pre">-V</span></tt> in your console to tell you.</p>
+<div class="section" id="interacting-with-python">
+<h2>Interacting With Python</h2>
+<p>After Python opens, it will show you some contextual information similar to this:</p>
+<pre class="literal-block">
+Python 3.5.0 (default, Sep 20 2015, 11:28:25)
+[GCC 5.2.0] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt;
+</pre>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The prompt <strong>&gt;&gt;&gt;</strong> on the last line indicates that you are now in an
+interactive Python interpeter session, also called the &quot;Python shell&quot;.
+<strong>This is different from the normal terminal command prompt!</strong></p>
+</div>
+<p>You can now enter some code for python to run. Try:</p>
+<pre class="literal-block">
+print(&quot;Hello world&quot;)
+</pre>
+<p>Press <a href="#id31"><span class="problematic" id="id32">:kbd:`Enter`</span></a> and see what happens. After showing the results, Python
+will bring you back to the interactive prompt, where you could enter
+another command:</p>
+<div class="system-message" id="id31">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 164); <em><a href="#id32">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<blockquote>
+<pre class="doctest-block">
+&gt;&gt;&gt; print(&quot;Hello world&quot;)
+Hello world
+&gt;&gt;&gt; (1 + 4) * 2
+10
+</pre>
+</blockquote>
+<p>An extremely useful command is <tt class="docutils literal">help()</tt>, which enters a help functionality
+to explore all the stuff python lets you do, right from the interpreter.
+Press <a href="#id33"><span class="problematic" id="id34">:kbd:`q`</span></a> to close the help window and return to the Python prompt.</p>
+<div class="system-message" id="id33">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 173); <em><a href="#id34">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<p>To leave the interactive shell and go back to the console (the <em>system</em> shell),
+press <a href="#id35"><span class="problematic" id="id36">:kbd:`Ctrl-Z`</span></a> and then <a href="#id37"><span class="problematic" id="id38">:kbd:`Enter`</span></a> on Windows, or <a href="#id39"><span class="problematic" id="id40">:kbd:`Ctrl-D`</span></a> on
+OS X or Linux. Alternatively, you could also run the python command <tt class="docutils literal">exit()</tt>!</p>
+<div class="system-message" id="id35">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 177); <em><a href="#id36">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<div class="system-message" id="id37">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 177); <em><a href="#id38">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<div class="system-message" id="id39">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 177); <em><a href="#id40">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise</h2>
+<p>Just above we demonstrated entering a command to figure out some math. Try
+some math commands of your own! What operations does python know? Get it
+to tell you what 239 and 588 added together, and then squared is.</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 189)</p>
+<p>Unknown directive type &quot;rst-class&quot;.</p>
+<pre class="literal-block">
+.. rst-class:: solution
+
+</pre>
+</div>
+</div>
+<div class="section" id="solution">
+<h2>Solution</h2>
+<p>Here are  some ways you might have got the answer:</p>
+<blockquote>
+<pre class="doctest-block">
+&gt;&gt;&gt; 239 + 588
+827
+&gt;&gt;&gt; 827 * 827
+683929
+</pre>
+<pre class="doctest-block">
+&gt;&gt;&gt; (239 + 588) * (239 + 588)
+683929
+</pre>
+<pre class="doctest-block">
+&gt;&gt;&gt; (239 + 588) ** 2
+683929
+</pre>
+</blockquote>
+</div>
+<div class="section" id="running-python-files">
+<h2>Running Python files</h2>
+<p>When you have a lot of python code to run, you will want to save it into
+a file, so for instance, you can modify small parts of it (fix a bug) and
+re-run the code without having to repeatedly re-type the rest.
+Instead of typing commands in one-by-one you can save your code to a
+file and pass the file name to the <a href="#id41"><span class="problematic" id="id42">:program:`python`</span></a> program.
+It will execute that file's code instead of
+launching its interactive interpreter.</p>
+<div class="system-message" id="id41">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 211); <em><a href="#id42">backlink</a></em></p>
+Unknown interpreted text role &quot;program&quot;.</div>
+<p><strong>Let's try that!</strong>  Create a file <a href="#id43"><span class="problematic" id="id44">:file:`hello.py`</span></a> in your current directory
+with your favorite code editor and write the print command from above.  Now
+save that file. On Linux or OS X, you can also run <tt class="docutils literal">touch hello.py</tt> to create
+an empty file to edit. To run this file with python, it's pretty easy:</p>
+<div class="system-message" id="id43">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 219); <em><a href="#id44">backlink</a></em></p>
+Unknown interpreted text role &quot;file&quot;.</div>
+<pre class="code bash literal-block">
+$ python hello.py
+</pre>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Make sure you are at your system command prompt, which will have <tt class="docutils literal">$</tt> or
+<tt class="docutils literal">&gt;</tt> at the end, <strong>not</strong> at python's (which has <tt class="docutils literal">&gt;&gt;&gt;</tt> instead)!</p>
+</div>
+<p>On Windows you should also be able to double-click the Python file to run it.</p>
+<p>When pressing <a href="#id45"><span class="problematic" id="id46">:kbd:`Enter`</span></a> now, the file is executed and you see the output
+as before.  But this time, after Python finished executing all commands from
+that file it exits back to the system command prompt, instead of going back
+to the interactive shell.</p>
+<div class="system-message" id="id45">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 235); <em><a href="#id46">backlink</a></em></p>
+Unknown interpreted text role &quot;kbd&quot;.</div>
+<p>And now we are all set and can get started with turtle!</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Not getting &quot;Hello world&quot; but some crazy error about &quot;can't open
+file&quot; or &quot;No such file or directory?&quot; Your command line might not be
+running in the directory that you saved the file in. You can change
+the working directory of your current command line with the
+<a href="#id47"><span class="problematic" id="id48">:command:`cd`</span></a> command, which stands for &quot;change directory&quot;. On Windows,
+you might want something like:</p>
+<div class="system-message" id="id47">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 244); <em><a href="#id48">backlink</a></em></p>
+Unknown interpreted text role &quot;command&quot;.</div>
+<pre class="literal-block">
+&gt; cd Desktop\Python_Exercises
+</pre>
+<p>On Linux or OS X, you might want something like:</p>
+<pre class="code bash literal-block">
+$ <span class="name builtin">cd</span> Desktop/Python_Exercises
+</pre>
+<p>This changes to the directory Python_Exercises under the Desktop folder
+(yours might be somewhere different). If you don't know the location
+of the directory where you saved the file, you can simply drag the
+directory to the command line window.  If you don't know which
+directory your shell is currently running in use <a href="#id49"><span class="problematic" id="id50">:command:`pwd`</span></a>,
+which stands for &quot;print working directory&quot;.</p>
+<div class="last system-message" id="id49">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 259); <em><a href="#id50">backlink</a></em></p>
+Unknown interpreted text role &quot;command&quot;.</div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>When playing around with turtle, avoid naming your file <a href="#id51"><span class="problematic" id="id52">:file:`turtle.py`</span></a>
+--- rather use more appropriate names such as <a href="#id53"><span class="problematic" id="id54">:file:`square.py`</span></a> or
+<a href="#id55"><span class="problematic" id="id56">:file:`rectangle.py`</span></a>.  Otherwise, whenever you refer to <tt class="docutils literal">turtle</tt>, Python
+will pick up <em>your</em> file instead of the standard Python turtle module.</p>
+<div class="system-message" id="id51">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 268); <em><a href="#id52">backlink</a></em></p>
+Unknown interpreted text role &quot;file&quot;.</div>
+<div class="system-message" id="id53">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 268); <em><a href="#id54">backlink</a></em></p>
+Unknown interpreted text role &quot;file&quot;.</div>
+<div class="last system-message" id="id55">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/Pdeffer/restructured example</tt>, line 268); <em><a href="#id56">backlink</a></em></p>
+Unknown interpreted text role &quot;file&quot;.</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
