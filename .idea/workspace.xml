@@ -299,15 +299,17 @@
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\strupy-ui-wx" />
-      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\senv" />
-      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\material specs\wood" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\ui" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\materialcodes\wood\archive files" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\strupy" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\materialcodes\wood" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy" />
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\strupy-ui-wx" />
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\senv" />
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\material specs\wood" />
     </key>
   </component>
   <component name="RunDashboard">
