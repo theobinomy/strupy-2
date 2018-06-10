@@ -36,6 +36,9 @@ env/
 senv/
 build/
 develop-eggs/
+materialcodes/
+bower_components/
+misc/
 dist/
 downloads/
 eggs/
