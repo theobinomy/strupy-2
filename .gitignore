@@ -34,8 +34,6 @@ Temporary Items
 .Python
 env/
 senv/
-materialcodes/
-iu/
 build/
 develop-eggs/
 dist/
