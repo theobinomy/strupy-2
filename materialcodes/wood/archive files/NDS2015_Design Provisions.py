@@ -10,11 +10,6 @@ import attr
 
 ur = pint.UnitRegistry()
 
-@attr.s
-class notation(object):
-    meaning = attr.ib()
-    z = 1*ur.dimensionless
-    units = attr.ib(default = 1*ur.dimensionless)
 
 import NDS2015variables as ndv
 #SS 1.6
@@ -31,7 +26,7 @@ loadlong = {'permanent':{'Cd':.9,'ex':'dead load'}, #applies to ASD only!
             'ten years':{'Cd':1.0,'ex':'live load'},
             'two months':{'Cd':1.15,'ex':'snowload'}}
 #2.3.2
-cD = {'perm':.9,'teny':1,'twom':1.15,'sevd':1.25,'tenm':1.6,'imp':2}
+
 phivals = {'Fb' : .85, 'Ft':.8,'Fv':.75,
            'Frt':.75,'Fs':.75,'Fc':.9,
            'Fcp':.9}
@@ -79,45 +74,9 @@ if not dcr <= 1:
 else:
     print(f'Your DCR is {round(dcr,2)} have a nice day.')
 
-#3.3.2 flexural deisgn
-import physics.beamdesign as demand
-__, M, __ = demand.simplebeamuniformload(10,10)
-M = M*ur.inch*ur.lb
-b = 1.5*ur.inch
-d = 3.5*ur.inch
-
-fb = (6*M)/(b*(d**2))
-assert fb.dimensionality == '[mass] / [length] ** 2'
-
-momI = (b*d**3)/12
-print(momI.dimensionality)
 
 
-assert momI.dimensionality == '[length] ** 4'
 
-secmod = (b*d**2)/6
-assert secmod.dimensionality == '[length] ** 3'
-cL = notation('beam stability factor', 'inch')
-
-el_e = 1
-
-Rb = (el_e * d / (b**2))
-
-if not Rb._magnitude<50:
-    print('Rb sucks')
-else:
-    print('rb is cool')
-Emin = 1
-Fbe = 1.2*Emin / Rb.magnitude**2
-Fbs = 1
-if not cL ==1:
-    a = (1+ Fbe/Fbs)/1.9
-    b = (Fbe/Fbs)/0.95
-    cL = a - (a**2-b)**.5
-
-#3.4 beming members - shear
-#3.4.1.1 DCR < 1
-#3.4.1.2 testing required for strength of built up members EI TJI/glulam/open web
 
 #3.4.2
 V = 1 #load from demand value
@@ -225,8 +184,3 @@ else:
 
 
 #3.10  #todo all of 3.10 :P
-
-class notation():
-    def __init__(self):
-        self.name
-        self.location

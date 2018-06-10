@@ -1,7 +1,7 @@
 
 # Generate Loads
 import buildingcodes.buildingcodes_main
-from materialcodes.wood.make_beams_and_columns import WoodBeamAnalysis
+from materialcodes.wood.Chap3_Design_Provisions import WoodBeamAnalysis
 
 
 

@@ -12,7 +12,7 @@ import pprint
 
 #creates list of datafile
 i = []
-with open('NDS_Design_Values6.csv', newline='') as csvfile:
+with open('NDS_Design_Values_Sawn_Lumber.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
     for row in spamreader:
         i.append(row)

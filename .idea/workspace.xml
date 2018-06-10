@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481c3516-fa8a-4f54-ae1d-b638c52d76a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Pdeffer/Pdeff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/button" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/jinja1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/jinja2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/mark2pdf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/rest_woodbeam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/restructured example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/retest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/rstpdf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pdeffer/xhtml2pdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materialcodes/wood/Chap4_Sawn_Lumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materialcodes/wood/Chap5_Glulam_Timber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materialcodes/wood/WoodSizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strupy-ui-wx/wx python 1.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strupy-ui-wx/wx2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strupy-ui-wx/wx2_snapshotPrinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strupy-ui-wx/wx_pyhton 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk_ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tk_ui/tkfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/._strucpy-engrbooks - Shortcut.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/._strucpy-engrbooks - Shortcut.lnk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/NDS2015_Design Provisions.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/archive files/NDS2015_Design Provisions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/NDS_Design_Values6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/NDS_Design_Values_Sawn_Lumber.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/WoodBeam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/WoodMain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/beamdesign.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/BeamLoadFormulas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/Chap3_Design_Provisions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/wood_column.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/wood_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/wood_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/senv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/senv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strupymain.py" beforeDir="false" afterPath="$PROJECT_DIR$/strupymain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,17 +35,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/strupy$button.coverage" NAME="button Coverage Results" MODIFIED="1524966936552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
     <SUITE FILE_PATH="coverage/strupy$retest.coverage" NAME="retest Coverage Results" MODIFIED="1524986761164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
-    <SUITE FILE_PATH="coverage/strupy$Pdeff.coverage" NAME="Pdeff Coverage Results" MODIFIED="1524895093377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$wx3_1.coverage" NAME="wx3-1 Coverage Results" MODIFIED="1528663767935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$wx3_2_darkui.coverage" NAME="wx3_2_darkui Coverage Results" MODIFIED="1528663741646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
     <SUITE FILE_PATH="coverage/strupy$jinja2.coverage" NAME="jinja2 Coverage Results" MODIFIED="1524986220640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
-    <SUITE FILE_PATH="coverage/strupy$docutils_task_in_restructured_example.coverage" NAME="docutils task in restructured example Coverage Results" MODIFIED="1524959824249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$make_beams_and_columns.coverage" NAME="make_beams_and_columns Coverage Results" MODIFIED="1525929165327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
+    <SUITE FILE_PATH="coverage/strupy$wx2_3.coverage" NAME="wx2-3 Coverage Results" MODIFIED="1528663781427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
     <SUITE FILE_PATH="coverage/strupy$xhtml2pdf.coverage" NAME="xhtml2pdf Coverage Results" MODIFIED="1524981499453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$wx2_snapshotPrinter.coverage" NAME="wx2_snapshotPrinter Coverage Results" MODIFIED="1527918025065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$Chap4_Sawn_Lumber.coverage" NAME="Chap4_Sawn_Lumber Coverage Results" MODIFIED="1526782560249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
+    <SUITE FILE_PATH="coverage/strupy$wx3_p.coverage" NAME="wx3-p Coverage Results" MODIFIED="1528663759424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$Chap3_Design_Provisions.coverage" NAME="Chap3_Design_Provisions Coverage Results" MODIFIED="1526523714071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
     <SUITE FILE_PATH="coverage/strupy$py_test_in_sawn_lumber_adjustments_py.coverage" NAME="py.test in sawn_lumber_adjustments.py Coverage Results" MODIFIED="1524877897560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
     <SUITE FILE_PATH="coverage/strupy$sawn_lumber_adjustments.coverage" NAME="sawn_lumber_adjustments Coverage Results" MODIFIED="1524878254805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
+    <SUITE FILE_PATH="coverage/strupy$wx_pyhton_1.coverage" NAME="wx_pyhton 1 Coverage Results" MODIFIED="1528663731882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
     <SUITE FILE_PATH="coverage/strupy$mark2pdf.coverage" NAME="mark2pdf Coverage Results" MODIFIED="1524991606003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
-    <SUITE FILE_PATH="coverage/strupy$rstpdf.coverage" NAME="rstpdf Coverage Results" MODIFIED="1524985973678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
     <SUITE FILE_PATH="coverage/strupy$jinja1.coverage" NAME="jinja1 Coverage Results" MODIFIED="1524986410567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$app.coverage" NAME="app Coverage Results" MODIFIED="1527829704637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$setup.coverage" NAME="setup Coverage Results" MODIFIED="1527829686048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$tkfile.coverage" NAME="tkfile Coverage Results" MODIFIED="1525630430988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_ui" />
+    <SUITE FILE_PATH="coverage/strupy$wx1.coverage" NAME="wx1 Coverage Results" MODIFIED="1528663802777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$wx2_2.coverage" NAME="wx2-2 Coverage Results" MODIFIED="1528663789882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$rstpdf.coverage" NAME="rstpdf Coverage Results" MODIFIED="1524985973678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$wx2.coverage" NAME="wx2 Coverage Results" MODIFIED="1528663796617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$button.coverage" NAME="button Coverage Results" MODIFIED="1524966936552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$Pdeff.coverage" NAME="Pdeff Coverage Results" MODIFIED="1524895093377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$wx3_3_fader.coverage" NAME="wx3_3_fader Coverage Results" MODIFIED="1528432342696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$docutils_task_in_restructured_example.coverage" NAME="docutils task in restructured example Coverage Results" MODIFIED="1524959824249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pdeffer" />
+    <SUITE FILE_PATH="coverage/strupy$wx3_2_darkmode.coverage" NAME="wx3_2_darkmode Coverage Results" MODIFIED="1528663751716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$wx_python_1_2.coverage" NAME="wx python 1.2 Coverage Results" MODIFIED="1528663810321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strupy-ui-wx" />
+    <SUITE FILE_PATH="coverage/strupy$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1526689597858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/strupy$Chap3_Sawn_Lumber.coverage" NAME="Chap3_Sawn_Lumber Coverage Results" MODIFIED="1525929306391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/materialcodes/wood" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -56,32 +86,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rest_woodbeam" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pdeffer/rest_woodbeam">
+      <file leaf-file-name="wx2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jinja2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pdeffer/jinja2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="-393">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#144#153#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#681#1442#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <file leaf-file-name="wx_pyhton 1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx_pyhton 1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="242">
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx3-1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3-1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx3-p.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3-p.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx3_2_darkmode.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkmode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx3_2_darkui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx3_3_fader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3_3_fader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx2_snapshotPrinter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx2_snapshotPrinter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx python 1.2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx python 1.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,21 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design process/design criteria.py" />
-        <option value="$PROJECT_DIR$/material specs/pinttest.py" />
-        <option value="$PROJECT_DIR$/material specs/wood/connection.py" />
-        <option value="$PROJECT_DIR$/material specs/wood/chapter 1.py" />
-        <option value="$PROJECT_DIR$/material specs/wood/chapter1.py" />
-        <option value="$PROJECT_DIR$/buildingcodes/IBC.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/WoodMain.py" />
-        <option value="$PROJECT_DIR$/physics/beamdesign.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/__init__.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" />
-        <option value="$PROJECT_DIR$/ui/tkinter_gui.py" />
-        <option value="$PROJECT_DIR$/strupy/strupy/app.py" />
-        <option value="$PROJECT_DIR$/strupy/strupy/__main__.py" />
         <option value="$PROJECT_DIR$/strupy-ui/strupy/app1.py" />
         <option value="$PROJECT_DIR$/strupy-ui/strupy/app.py" />
         <option value="$PROJECT_DIR$/strupy-ui/strupy/__init__.py" />
@@ -137,8 +219,6 @@
         <option value="$PROJECT_DIR$/materialcodes/__init__.py" />
         <option value="$PROJECT_DIR$/materialcodes/wood/beamdesign.py" />
         <option value="$PROJECT_DIR$/ui/wxpython_gui.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
-        <option value="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" />
         <option value="$PROJECT_DIR$/Pdeffer/Pdeff.py" />
         <option value="$PROJECT_DIR$/Pdeffer/restructured example" />
         <option value="$PROJECT_DIR$/Pdeffer/button" />
@@ -150,6 +230,39 @@
         <option value="$PROJECT_DIR$/Pdeffer/jinja2.py" />
         <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/Pdeffer/rest_woodbeam" />
+        <option value="$PROJECT_DIR$/tk_ui/tkfile.py" />
+        <option value="$PROJECT_DIR$/senv/Lib/site-packages/gi/__init__.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/BeamLoadFormulas.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/MemberSizes.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/NDS2015_Design Provisions.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/wood_column.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/wood_connection.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/WoodMain.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/wooddataparser.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/Chap3_Sawn_Lumber.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/__init__.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/Chap5_Glulam_Timber.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/archive files/NDS2015_Design Provisions.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/Chap3_Design_Provisions.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/Chap4_Sawn_Lumber.py" />
+        <option value="$PROJECT_DIR$/materialcodes/wood/WoodSizer.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx_pyhton 1.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx python 1.2.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx2.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx2_snapshotPrinter.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx2-2.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx2-3.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3-p.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3-2 darkmode.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3-2 darkui.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkmode.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkui.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3_3_fader.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx3-1.py" />
+        <option value="$PROJECT_DIR$/strupy-ui-wx/wx1.py" />
       </list>
     </option>
   </component>
@@ -173,8 +286,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
-    <option name="width" value="933" />
-    <option name="height" value="1092" />
+    <option name="y" value="-12" />
+    <option name="width" value="1851" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -195,18 +309,13 @@
             <path>
               <item name="strupy" type="b2602c69:ProjectViewProjectNode" />
               <item name="strupy" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="materialcodes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="strupy" type="b2602c69:ProjectViewProjectNode" />
               <item name="strupy" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="strupy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="strupy" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="materialcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="wood" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,10 +324,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="size&#9;FILE&#9;file://C:/Users/stmwr/Dropbox/SoftwareProjects/strupy/materialcodes/wood/MemberSizes.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Pdeffer" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -233,10 +344,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\strupy-ui-wx" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\senv" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\material specs\wood" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\materialcodes\wood\archive files" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strupy\strupy" />
       <recent name="C:\Users\stmwr\Dropbox\SoftwareProjects\strucpy\materialcodes\wood" />
     </key>
@@ -253,8 +366,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mark2pdf">
-    <configuration name="jinja1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.wx python 1.2">
+    <configuration name="wx python 1.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,18 +375,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui-wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/jinja1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui-wx/wx python 1.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="jinja2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,18 +394,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui-wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/jinja2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui-wx/wx1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mark2pdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx2-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,18 +413,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui-wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/mark2pdf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui-wx/wx2-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="retest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx2-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,18 +432,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui-wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/retest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui-wx/wx2-3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="rstpdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="strucpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,12 +451,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pdeffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strupy-ui-wx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pdeffer/rstpdf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strupy-ui-wx/wx2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,19 +464,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Default" />
-      <item itemvalue="Python.retest" />
-      <item itemvalue="Python.rstpdf" />
-      <item itemvalue="Python.jinja2" />
-      <item itemvalue="Python.jinja1" />
-      <item itemvalue="Python.mark2pdf" />
+      <item itemvalue="Python.wx2-3" />
+      <item itemvalue="Python.wx2-2" />
+      <item itemvalue="Python.wx2" />
+      <item itemvalue="Python.wx1" />
+      <item itemvalue="Python.wx python 1.2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mark2pdf" />
-        <item itemvalue="Python.retest" />
-        <item itemvalue="Python.jinja1" />
-        <item itemvalue="Python.jinja2" />
-        <item itemvalue="Python.rstpdf" />
+        <item itemvalue="Python.wx python 1.2" />
+        <item itemvalue="Python.wx1" />
+        <item itemvalue="Python.wx2" />
+        <item itemvalue="Python.wx2-2" />
+        <item itemvalue="Python.wx2-3" />
       </list>
     </recent_temporary>
   </component>
@@ -466,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524719081677</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="playing with deploys">
+      <created>1525625203565</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1525625203568</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,23 +617,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49445865" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5242967" side_tool="true" visible="true" weight="0.47913188" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49360615" weight="0.32554257" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.13725491" side_tool="true" weight="0.4924875" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.47570333" weight="0.327212" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.48252344" weight="0.37896493" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8695652" weight="0.4924875" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.47570333" visible="true" weight="0.47913188" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48469388" visible="true" weight="0.24978687" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4739983" weight="0.32554257" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.7638534" weight="0.37563452" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8627451" weight="0.49749583" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.1543052" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4739983" weight="0.47715735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48469388" visible="true" weight="0.3137255" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32992327" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.486786" weight="0.69616026" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32992327" />
       <window_info id="Structure" order="1" sideWeight="0.5153061" side_tool="true" weight="0.17050299" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" sideWeight="0.49957374" weight="0.32656515" />
       <window_info id="Favorites" order="2" sideWeight="0.5153061" side_tool="true" weight="0.17050299" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.484375" weight="0.39910814" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" sideWeight="0.49957374" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4799659" weight="0.39086294" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -521,31 +642,32 @@
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.49957374" weight="0.32888147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.486786" weight="0.69616026" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.51167315" side_tool="true" weight="0.18394649" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48832685" visible="true" weight="0.17050299" />
-      <window_info id="Structure" order="1" sideWeight="0.5119863" side_tool="true" weight="0.18394649" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4955357" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8895089" visible="true" weight="0.5" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.484375" weight="0.39910814" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49330357" weight="0.47945204" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.110491075" side_tool="true" weight="0.6136618" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.47767857" weight="0.32876712" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49107143" weight="0.3289256" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48325893" weight="0.11986301" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8627451" visible="true" weight="0.4924875" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5153061" side_tool="true" weight="0.17050299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48469388" visible="true" weight="0.26427963" />
+      <window_info id="Structure" order="1" sideWeight="0.5153061" side_tool="true" weight="0.17050299" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49360615" weight="0.327212" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" sideWeight="0.49957374" weight="0.32888147" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.486786" weight="0.69616026" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4799659" weight="0.39899832" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4739983" weight="0.47913188" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13725491" side_tool="true" visible="true" weight="0.4924875" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4739983" weight="0.32554257" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32992327" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49957374" visible="true" weight="0.32876712" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32992327" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.7638534" weight="0.37896493" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,126 +685,84 @@
     <MESSAGE value="pint integration into wood module" />
     <MESSAGE value="species selector" />
     <MESSAGE value="Adjustment factors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjustment factors" />
+    <MESSAGE value="playing with deploys" />
+    <option name="LAST_COMMIT_MESSAGE" value="playing with deploys" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/strupy-ui-wx/wx2.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkui.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>C_F_vals = {
+            'Stud': {
+                # 'width': {
+                '2': {'2': 1.1, '3': 1.1, 4: 1.1},
+                '3': {'2': 1.1, '3': 1.1, 4: 1.1},
+                '4': {'2': 1.1, '3': 1.1, 4: 1.1},
+                '5': {'2': 1.0, '3': 1.0, 4: 1.0},
+                '6': {'2': 1.0, '3': 1.0, 4: 1.0},
+                '8': {'2': 1.2, '3': 1.2, 4: 1.3},
+                '10': {'2': 1.1, '3': 1.1, 4: 1.2},
+                '12': {'2': 1.0, '3': 1.0, 4: 1.1},
+                '14': {'2': 0.9, '3': 0.9, 4: 1.0},
+                # }
+            },
+            'Construction': {
+                # 'width': {
+                '2': {'2': 1.0, '3': 1.0, 4: 1.0},
+                '3': {'2': 1.0, '3': 1.0, 4: 1.0},
+                '4': {'2': 1.0, '3': 1.0, 4: 1.0},
+                # }
+            },
+            'Utility': {
+                # 'width': {
+                '2': {'2': .4, '3': .4, 4: 999},
+                '3': {'2': .4, '3': .4, 4: 999},
+                '4': {'2': 1.0, '3': 1.0, 4: 1.0},
+                # }
+            },
+            'Other': {
+                # 'width': {
+                '2': {'2': 1.5, '3': 1.5, 4: 1.5},
+                '3': {'2': 1.5, '3': 1.5, 4: 1.5},
+                '4': {'2': 1.5, '3': 1.5, 4: 1.5},
+                '5': {'2': 1.4, '3': 1.4, 4: 1.4},
+                '6': {'2': 1.3, '3': 1.3, 4: 1.3},
+                '8': {'2': 1.2, '3': 1.2, 4: 1.3},
+                '10': {'2': 1.1, '3': 1.1, 4: 1.2},
+                '12': {'2': 1.0, '3': 1.0, 4: 1.1},
+                '14': {'2': 0.9, '3': 0.9, 4: 1.0},
+                # }
+            },
+        }</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pdeffer/rest_woodbeam">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pdeffer/jinja2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#144#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material specs/wood/connection.py" />
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015.py" />
-    <entry file="file://$PROJECT_DIR$/pint documentations.py" />
-    <entry file="file://$PROJECT_DIR$/buildingcodes/IBC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/tokenize.py" />
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/compat/__init__.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/_collections_abc.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/unit.py" />
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015variables.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/quantity.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pint/registry.py" />
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/NDS2015_Design Provisions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strupy/strupy/app.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strupy/strupy/__main__.py" />
-    <entry file="file://C:/Python/Lib/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4/enum.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/NEWS.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3111" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadtracer.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_design.py" />
-    <entry file="file://$PROJECT_DIR$/strupy-ui/setup.py" />
     <entry file="file://$PROJECT_DIR$/strupy-ui/strupy/app1.py" />
     <entry file="file://$PROJECT_DIR$/strupy-ui/strupy/__init__.py" />
     <entry file="file://$PROJECT_DIR$/strupy-ui/strupy/__main__.py" />
@@ -715,20 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/beamdesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pdeffer/button">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
@@ -740,20 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="280" column="8" lean-forward="true" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materialcodes/wood/make_beams_and_columns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -802,7 +854,7 @@
     <entry file="file://$PROJECT_DIR$/Pdeffer/rest_woodbeam">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -810,9 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#144#153#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,6 +869,252 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/senv/Lib/site-packages/gi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_ui/tkfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodMain.py" />
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/wood_column.py" />
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/Output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/sawn_lumber_adjustments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/testing_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/wood_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/Chap5_Glulam_Timber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/senv/Lib/site-packages/pint/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/wooddataparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#106#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/BeamLoadFormulas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/senv/Lib/site-packages/pint/quantity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13481">
+          <caret line="813" selection-start-line="813" selection-end-line="813" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/archive files/NDS2015_Design Provisions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/Chap3_Design_Provisions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="e#85#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/Chap4_Sawn_Lumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="394" column="23" selection-start-line="394" selection-start-column="23" selection-end-line="394" selection-end-column="23" />
+          <folding>
+            <element signature="e#266#526#0" />
+            <element signature="e#586#5266#0" />
+            <element signature="e#1268#1368#0" />
+            <element signature="e#1405#3719#0" />
+            <element signature="e#3757#3765#0" />
+            <element signature="e#3802#3860#0" />
+            <element signature="e#3897#4038#0" />
+            <element signature="e#4076#4512#0" />
+            <element signature="e#5317#8239#0" />
+            <element signature="e#8297#9478#0" />
+            <element signature="e#9549#9849#0" />
+            <element signature="e#9918#10219#0" />
+            <element signature="e#10278#10442#0" />
+            <element signature="e#10524#10682#0" />
+            <element signature="e#11464#11562#0" />
+            <element signature="e#11600#11685#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/strupy-ui-wx/app.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx2-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx2_snapshotPrinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx2-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materialcodes/wood/WoodSizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1313#2255#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx python 1.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3_3_fader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#681#1442#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx_pyhton 1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3_2_darkmode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3-p.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strupy-ui-wx/wx3-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>

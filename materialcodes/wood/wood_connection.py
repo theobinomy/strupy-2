@@ -18,9 +18,11 @@ class WoodConnection:
         Fel = 6100*specific_gravity**1.45*diameter*-.5
         Felp = (Fep * Fel) / (Fep * sin(angle_of_load)**2 + Fel * cos(angle_of_load)**2)
         return Felp
+
     def small_dowel(self, specific_gravity=None, diameter=None):
         print(16600*specific_gravity**1.84)
         return 16600*specific_gravity**1.84
+
 class Nails: #specg =.5, fload = 1000):
     def __init__(self, specg = None, load = None):
         self.specg = specg
