@@ -37,6 +37,7 @@ senv/
 build/
 develop-eggs/
 materialcodes/
+/materialcodes/
 bower_components/
 misc/
 dist/

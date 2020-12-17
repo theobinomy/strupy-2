@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/strupy-ui/strupy" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/senv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (strupy)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (cenv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

@@ -1,9 +1,0 @@
-template =
-'''
-WOODBEAMS
----------
-
-The species of woodbeam is
-
-{{woodbeam.species()}}
-
